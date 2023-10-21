@@ -1,16 +1,14 @@
-import Banner from './componentes/Banner';
-import CampoTexto from './componentes/CampoTexto';
+import Banner from './componentes/Banner'
+import Formulario from './componentes/Formulario'
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <CampoTexto laberl="Nome"/>
-      <CampoTexto laberl="Cargo"/>
-      <CampoTexto laberl="Imagem"/>
+      <Formulario />
 
     </div>
-  );
+  )
 }
 
 export default App;
