@@ -7,7 +7,7 @@ const ListaSupensa = (props) => {
         <label>{props.label}</label>
 
         <select
-          onChange={(evento) => props.aoAlterado(evento.target.value)}
+          onChange={evento => props.aoAlterado(evento.target.value)}
           required={props.obrigatorio}
           valure={props.value}
         >

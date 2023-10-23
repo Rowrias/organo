@@ -16,7 +16,7 @@ function App() {
     <div className="App">
 
       <Banner />
-      <Formulario aoColaboradorCadastrado={aoNovoColaboradorAdicionado(colaboradores)} />
+      <Formulario aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
       <Time nome="Programação"/>
       <Time nome="Frontend"/>
       <Time nome="Data Science"/>
