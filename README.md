@@ -1,7 +1,7 @@
 
-Curso de tailwind CSS desenvolvido com a Alura
+Curso de React desenvolvido com a Alura
 
-link
+[link](https://rowrias.github.io/organo/)
 
 <img width="631" alt="image" src="https://github.com/Rowrias/organo/assets/113151785/e4f623be-9b60-42d0-9def-8ae3e278e7ed">
 
