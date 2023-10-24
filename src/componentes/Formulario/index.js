@@ -6,17 +6,6 @@ import "./Formulario.css";
 
 const Formulario = (props) => {
 
-  // seleção do time
-  const times = [
-    "Programação",
-    "Front-End",
-    "Data Science",
-    "Devops",
-    "UX e Desing",
-    "Mobile",
-    "Inovação e Gestão",
-  ]
-
   // guarda os valores quando clica no "criar card"
   const [nome, setNome] = useState("")
   const [cargo, setCargo] = useState("")
@@ -62,7 +51,7 @@ const Formulario = (props) => {
         <ListaSupensa
           obrigatorio={true}
           label="Time"
-          itens={times}
+          itens={props.times}
           valor={time}
           aoAlterado={(valor) => setTime(valor)}
         />
