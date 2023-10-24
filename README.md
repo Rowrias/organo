@@ -1,3 +1,11 @@
+
+Curso de tailwind CSS desenvolvido com a Alura
+
+link
+
+<img width="631" alt="image" src="https://github.com/Rowrias/organo/assets/113151785/e4f623be-9b60-42d0-9def-8ae3e278e7ed">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
